@@ -1,0 +1,184 @@
+.container {
+  height: 100vh;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 500;
+}
+
+.scoreboard-block {
+  display: none;
+  position: absolute;
+  height: fit-content;
+  width: 30vh;
+  right: 3vh;
+  top: 15vh;
+  margin: 1vh;
+  
+}
+
+
+
+
+.scoreboard-header {
+  position: relative;
+  width: 100%;
+  height: 5vh;
+  border-radius: 0.8rem;
+}
+
+.title{
+  margin-left: 1.3vh;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 3px inset #32a1ce;
+}
+
+.scoreboard-header > p {
+  text-align: center;
+  font-weight:600;
+  color: #b7dc14;
+  padding: 1.3vh;
+  font-family: "poppins", sans-serif;
+  font-size: 2.5vh;
+}
+
+.status {
+  position: absolute;
+  right: 3vh;
+}
+
+#status-tab-label {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  right: 3vh;
+  font-weight:600;
+}
+
+.info-beam-title {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.7vh;
+  line-height: 4.5vh;
+  font-weight: 300;
+  color: #EAE9FC;
+}
+
+
+.info-beam-status {
+  position: absolute;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  right: 3vh;
+  float: left;
+  text-align: left;
+  top: 15px
+}
+
+.scoreboard-info-beam {
+  position: relative;
+  background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
+  border-style: solid;
+  border-radius: 1px;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  align-items: center;
+  margin: 10px;
+  height: 4.5vh;
+  width: 95%;
+}
+
+.job-info-conatiner{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.job-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+  height: 3rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
+  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  color: rgb(255, 255, 255);
+}
+
+.job-label{
+  margin-top: 5px;
+  font-size: 9px;
+}
+
+.job-info i{
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.status-value{
+  padding-top: 2px;
+  align-self: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.net-info-container {
+  display: flex;
+  flex-direction: column;
+  color: #EAE9FC;
+}
+
+.player-info-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.5vh;
+  margin: 10px;
+  background: radial-gradient(circle, rgba(114, 114, 114, 0.322) 0%, rgba(77, 79, 87, 0.177) 100%);
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgba(110, 110, 119, 0.925);
+  border-radius: 3px;
+}
+
+.rob-title-container{
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+.player-job-title{
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.3vh;
+   font-weight: 300;
+ }
+
+ #player-rank{
+  margin-right: 10px;
+ }
+
+.grade {
+  position: relative;
+  right: 3vh;
+}
+
+.job{
+  padding-right: 50px;
+}
+
+.duty-toggle{
+  margin-left: 12px;
+  font-size: 30px;
+}
+
+.star1, .star2, .star3 {
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}

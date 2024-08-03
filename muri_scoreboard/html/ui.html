@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>QBCore Scoreboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="scoreboard-block">
+            <div class="scoreboard-header">
+                <p id="servername">SERVER Name</p>
+            </div>
+            <div class="net-info-container">
+                <div class="player-job-title">
+                    <p class="title" id="duty">Duty</p>
+                    <p class="title job" id="job_title">Job Title</p>
+                    <p class="title grade" id="job_rank">Rank</p>
+                </div>
+                <div class="player-info-container">
+                    <div class="duty-toggle">
+                    </div>
+                    <div class="name-container">
+                        <span id="player-job">Player Name</span>
+                    </div>
+                    <div class="name-container">
+                        <span id="player-rank">Player Name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rob-title-container">
+                <p class="title" id="robberies">Robberies</p>
+                <p class="title status" id="status">Status</p>
+            </div>
+            <div class="scoreboard-info"></div>
+            <div>
+                <p class="title" id="city_activity">City Activity</p>
+            </div>
+            <div class="job-info-conatiner">
+                <div class="job-info">
+                    <i class="fa-solid fa-shield-halved" style="color: #7ea4c8"></i>
+                    <span class="status-value" id="currentcops"></span>
+                </div>
+                <div class="job-info">
+                    <i class="fa-solid fa-truck-medical"  style="color: #c87e7e"></i>
+                    <span class="status-value" id="currentAmbulance"></span>
+                </div>
+                <div class="job-info">
+                    <i class="fa-solid fa-wrench" style="color: #7ec890"></i>
+                    <span class="status-value" id="currentMechanic"></span>
+                </div>
+                <div class="job-info">
+                    <i class="fa-solid fa-taxi" style="color: #c2a500"></i>
+                    <span class="status-value" id="currentTaxi"></span>
+                </div>
+                <div class="job-info">
+                    <i class="fa-solid fa-users"></i>
+                    <span class="status-value" id="total-players"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
