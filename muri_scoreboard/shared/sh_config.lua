@@ -39,3 +39,4 @@ Cfg.Data = {
         ['yacht'] = {minimumPolice = 9, busy = false, label = 'Yacht Heist'}
     }
 }
+Cfg.ShowIDforALL = true
